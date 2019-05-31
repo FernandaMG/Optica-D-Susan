@@ -1,0 +1,30 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+#contenedor {
+	width: 990px;
+	margin: 30px auto;
+	overflow: hidden;
+}
+
+#contenedor ul{
+	list-style: none;
+	width: 2800px;
+	display: flex;
+
+	animation: slide 15s infinite alternate;
+}
+
+@keyframes slide {
+	0% {margin-left: 0px;}
+	20% {margin-left: 0px;}
+
+	30%{margin-left: -500px;}
+	40%{margin-left: -500px;}
+
+	50%{margin-left: -750px;}
+	65%{margin-left: -750px;}
+
+	
+}
