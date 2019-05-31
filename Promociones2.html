@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Promociones</title>
+	<style type="text/css">
+	   * {
+	   	padding: 0px;
+	   	margin: 0px;
+	   }
+       #Subtitulos {
+       	margin: auto;
+       	width:100%;
+       	font-family: Arial, Helvetica, sans-serif;
+       }
+       ul, ol {
+	   	list-style: none;
+	   }
+	   .navi li a {
+	   	background-color: #000;
+	   	color: #fff;
+	   	font-family: Georgia, serif;
+	   	text-decoration: none;
+	   	padding: 5px 40px;
+	   	display: block;
+	   	}
+	   	.navi li a:hover {
+	   		background-color: #434343;
+	   	}
+	   	.navi > li {
+	   	float: left;
+	   } 
+	   .navi li ul {
+	   	display: none;
+	   	position: absolute;
+	   	min-width: 200px;
+	   }
+	   .navi li:hover > ul {
+	   	display: block;
+	   }
+	   .navi li ul li {
+	   	position: relative;
+	   }
+	   .navi li ul li ul {
+	   	right: -200px;
+	   	top: 0px;
+	   }
+	   body {
+	   	font-family: georgia, times, serif;
+	   	color: #000000;
+	   	font-size: 1.2rem;
+	   	line-height: 1.4em;
+	   	margin: 0;
+	   }
+	   table{
+	   	width: 100%;
+	   	border: none;
+	   	border-color: #000000;
+	   	background: #000000;
+	   }
+	   table.s{
+	   	background: lightblue;
+	   	height: 20px;
+	   	width: 100%;
+	   }
+	  td.d{
+	  	width: 90%;
+
+	  }
+	  td.i{
+	  	align-content: center;
+	  	align-items: center;
+	  }
+	  td.o{
+	  	width: 30%;
+	  }
+	   h1{
+	   	line-height: 1.5em;
+	   	letter-spacing: 5px;
+	   	font-size: 1.5em;
+	   }
+	   p{
+	   	margin-bottom: 1.6rem;
+	   }
+	   h3{
+	   	font-family: Tw Cen MT, sans-serif;
+	   }
+	   input[type=search] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    height: 40px;
+    width: 250px;
+    background: white;
+    color: black;
+}
+	   .header{
+	   	 background: #000000;
+	   	 color: white;
+	   	 padding: 1rem 0;
+	   }
+	   .header a {
+	   	 color: white; 
+	   	 font-family: arial, serif; 
+	   	 text-decoration: none;
+	   }
+	   .logo-nav-container {
+	   	display: flex;
+	   	justify-content: space-between;
+	   	align-items: center;
+	   }
+	    .navigation ul {
+	   	margin: 0;
+	   	padding: 0;
+	   	list-style: none;
+	   }
+	   	.navigation ul li {
+	   		display: inline-block;
+	   	}
+	   	.navigation ul li a{
+	   			display: block;
+	   			padding: 0.5rem 1rem;
+	   			transition: all 0.4s linear;
+	   			border-radius: 5px;
+	   		}	
+	   		.navigation ul li a:hover {
+	   				background: lightblue;
+	   			}
+	   		.footer {
+	   			background: #000000;
+	   			padding: 4rem 0;
+	   			text-align: center;
+	   			margin-top: 6rem;
+	   			color: white;
+	   		}	
+	   		.flexbox
+	      	{
+	      		width: 600px;
+	      		height: 400px;
+	      		display: -webkit-box;
+	      		display: box;
+	      		-webkit-box-orient: horizontal;
+	      		box-orient: horizontal;
+	      	}
+	      	.flexbox > div
+	      	{
+	      		-webkit-transition: 1s ease-out;
+	      		transition: 1s ease-out;
+	      		-webkit-border-radius: 10px;
+	      		border-radius: 10px;
+	      		border: 2px solid black;
+	      		width: 380px;
+	      		margin: 10px -10px 10px 0px;
+	      		padding: 20px 20px 20px 20px;
+	      		box-shadow: 10px 10px 10px dimgrey;
+	      	}
+	      	.flexbox > div:nth-child(1){ background-color: lightgrey; }
+	      	.flexbox > div:nth-child(2){ background-color: lightgrey; }
+	      	.flexbox > div:nth-child(3){ background-color: lightgrey; }
+	      	
+	      	.flexbox > div:hover {
+	      		width: 200px; color: black; font-weight: bold;}
+            .flexbox > div:nth-child(1):hover { background-color: lightblue; }
+            .flexbox > div:nth-child(2):hover { background-color: lightblue; }
+            .flexbox > div:nth-child(3):hover { background-color: lightblue; }
+            p { height: 250px; overflow: hidden; font-family: "Rosario" }
+        	</style>
+</head>
+<body>
+	
+	<table>
+		<tbody>
+			<tr>
+				<td class="d">
+					<header class="header">
+						<div class="container logo-nav-container">
+							<nav class="navigation">
+								<ul>
+ 									<li><a href="file:///C:/Users/Marie/Documents/Html/Proyecto%20Optica/Inicio2.html">Inicio</a></li>
+ 									<li><a href="#">Factura</a></li>
+ 									<li><a href="file:///C:/Users/Marie/Documents/Html/Proyecto%20Optica/Promociones2.html">Promociones</a></li>
+ 								</ul>
+							</nav>	
+						</div>
+					</header>
+				</td>
+				
+				<td class="i">
+					<header class="header"><div class="container logo-nav-container"><nav class="navigation"><center>
+					<a href="file:///C:/Users/Marie/Documents/Html/Proyecto%20Optica/Acceso%20del%20cliente.html">
+					<img src="1486564400-account_81513.png" width="35" height="35" ></a>
+ 					</center></nav></div></header>
+				</td>
+				<td class="i">
+					<header class="header"><div class="container logo-nav-container"><nav class="navigation"><center>
+					<img src="carro-icono.png" width="35" height="35">
+					</center></nav></div></header>
+				</td>
+		</tbody>
+	</table>
+
+	
+		<table class="s">
+			<tbody>
+				<tr>
+					<td class="o">
+						<h1>Optica D Susan</h1>
+					</td>
+					<td class="s">
+						<div id="Subtitulos">
+ 			<ul class="navi"> 
+ 				<li><a href="">Lentes oft&aacute;lmicos</a>
+ 					<ul>
+ 						<li><a href="">Estilo</a>
+ 							<ul>
+ 								<li><a href="">Cl&aacute;sico</a></li>
+ 								<li><a href="">Urbano</a></li>
+ 								<li><a href="">Hipster</a></li>
+ 							</ul>
+ 						</li>
+ 						<li><a href="">Marcas</a>
+ 							<ul>
+ 								<li><a href="">Ray Ban</a></li>
+ 								<li><a href="">DKNY</a></li>
+ 								<li><a href="">Vogue</a></li>
+ 							</ul>
+ 						</li>
+ 						<li><a href="">Mica</a></li>
+ 					</ul>
+ 				</li>
+ 				<li><a href="">Lentes solares</a>
+ 					<ul>
+ 						<li><a href="">Marca</a>
+ 							<ul>
+ 								<li><a href="">DKNY</a></li>
+ 								<li><a href="">Vogue</a></li>
+ 								<li><a href="">Ray Ban</a></li>
+ 							</ul>
+ 						</li>
+ 						<li><a href="">Estilo</a>
+ 							<ul>
+ 								<li><a href="">Trendy</a></li>
+ 								<li><a href="">Urbano</a></li>
+ 								<li><a href="">Cl&aacute;sico</a></li>
+ 							</ul>
+ 						</li>
+ 						<li><a href="">Forma</a>
+ 							<ul>
+ 								<li><a href="">Cuadrado</a></li>
+ 								<li><a href="">Redondo</a></li>
+ 								<li><a href="">Piloto</a></li>
+ 							</ul>
+ 						</li>
+ 					</ul>
+ 				</li>
+ 				<li><a href="">Lentes de contacto</a>
+ 					<ul>
+ 						<li><a href="">Marca</a>
+ 							<ul>
+ 								<li><a href="">Frecuent</a></li>
+ 								<li><a href="">Trikolor</a></li>
+ 								<li><a href="">Air optix</a></li>
+ 							</ul>
+ 						</li>
+ 						<li><a href="">Necesidad</a>
+ 							<ul>
+ 								<li><a href="">Astigmatismo</a></li>
+ 								<li><a href="">Miop&iacute;a</a></li>
+ 								<li><a href="">Hipermetropia</a></li>
+ 							</ul>
+ 						</li>
+ 						<li><a href="">Tipo</a>
+ 							<ul>
+ 								<li><a href="">Cosm&eacute;ticos</a></li>
+ 								<li><a href="">Graduados</a></li>
+ 							</ul>
+ 						</li>
+ 					</ul>
+ 				</li>
+ 				<li><a href="">Accesorios</a></li>
+ 			</ul>
+ 		</div>	
+				</td>
+				</tr>
+			</tbody>
+		</table><br><br>
+   
+   	<div class="flexbox">
+        <div align="center"><img src="130365-762753114426-angle-01-carrera-carrera144v-003-52-pair.png" width="95" height="95">
+        	<p>Convenio con los sindicatos de maestros para darles descuentos de lentes.</p></div>
+        <div align="center"><img src="130365-762753114426-angle-01-carrera-carrera144v-003-52-pair.png" width="95" height="95">
+        	<p>Convenio con el Instituto Tecnol&oacute;gico Superior de Misantla para darles descuento a sus alumnos.</p></div>
+        <div align="center"><img src="130365-762753114426-angle-01-carrera-carrera144v-003-52-pair.png" width="95" height="95">
+        	<p>Convenio con el Palacio Municipal para darles descuento a sus empleados.</p></div>
+
+    </div>
+
+  	<footer class="footer">
+  		<div class="container">
+  			<div align="center">
+  		<a href="https://www.facebook.com/pages/Optica-D-Susan/205348463157463?ref=br_tf&epa=SEARCH_BOX">
+  			<img width="50" height="50" src="icono-de-facebook-logo-by-vexels.png"></a>		
+  			</div>
+  		</div>
+  		<hr align="center" size="1"><br>
+
+  		<table class="lod">
+  			<tbody>
+  				<tr>
+  					<td>
+  						<h3 align="center"><p>AYUDA</p></h3>
+  						<h3 align="center"><p>POLITICAS DE PRIVACIDAD</p></h3>
+  						<h3 align="center"><p>T&Eacute;RMINOS Y CONDICIONES</p></h3>
+  						<h3 align="center"><p>NOSOTROS</p></h3>
+  						<h3 align="center"><p>SI QUIERES CONOCER M&Aacute;S SOBRE NOSOTROS</p></h3>
+  					</td>
+
+  					<td>
+  						<h3 align="center"><p>ATENCI&Oacute;N A CLIENTES</p></h3>
+  						<h3 align="center"><p>TEL.235 323 4433</p></h3>
+  						<h3 align="center"><p>LUNES A VIERNES 9:30 A 14:00 HRS.</p></h3>
+  						<h3 align="center"><p>16:00 A 19:00 HRS.</p></h3>
+  						<h3 align="center"><p>S&Aacute;BADO</p></h3>
+  						<h3 align="center"><p>9:30 A 14:00 HRS.</p></h3>
+  					</td>
+  				</tr>
+  			</tbody>
+  		</table>
+  	</footer>
+</body>
+</html>
